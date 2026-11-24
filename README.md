@@ -28,6 +28,24 @@ Printer-scale STL files for all five XLeRobot-MM manipulator configurations, plu
 
 The exact quantity and suggested material for every file is in [`BOM.csv`](BOM.csv). [`manifest.json`](manifest.json) records source meshes, scale factors, dimensions, triangle counts, topology statistics, and SHA-256 checksums.
 
+Quantities in the BOM are for a dual-arm robot configured with the selected manipulator. Servo/motor envelope meshes are intentionally excluded because the physical motors are purchased components, not printed parts.
+
+### Complete two-jaw printed set
+
+The dual two-jaw configuration contains seven structural parts per arm, with two copies of each required:
+
+| File | Quantity | Function |
+|---|---:|---|
+| `common_so100_arm/Base.stl` | 2 | Arm-to-lift base |
+| `common_so100_arm/Rotation_Pitch.stl` | 2 | Shoulder rotation/pitch housing |
+| `common_so100_arm/Upper_Arm.stl` | 2 | Upper arm link |
+| `common_so100_arm/Lower_Arm.stl` | 2 | Lower arm link |
+| `common_so100_arm/Wrist_Pitch_Roll.stl` | 2 | Wrist link |
+| `two_jaw/Fixed_Jaw.stl` | 2 | Fixed gripper body and finger |
+| `two_jaw/Moving_Jaw.stl` | 2 | Moving gripper finger |
+
+That is **14 printed structural pieces** for both arms. Motors, servo horns, bearings, fasteners, cables, and electronics are hardware items and are not duplicated as STL models.
+
 ## Vertical up/down motion
 
 Each arm uses one independent Z-stage:
@@ -48,7 +66,7 @@ The rollers, bearings, T-slot extrusion, lead screw, lead nut, coupler, end stop
 - Use PETG or PETG-CF for rigid load-bearing parts. Use TPU 95A for continuum bodies and TPU 85A for sucker overlays.
 - Tentacle body and sucker files with the same segment number share an origin. Load them together for dual-material printing, or use them as aligned mould/overmould references.
 - `hand_palm_p` and `hand_palm_n` are opposite chiralities. Print the version whose thumb points toward the robot centre line.
-- The motor-labelled SO-100 meshes are fit/reference envelopes from the existing robot model. Use the actual Feetech servos for an operating robot.
+- Use the actual Feetech servos and appropriate hardware; motor-envelope meshes are intentionally not part of this print package.
 - Select layer height, wall count, infill, orientation, supports, and tolerances for your printer and expected load. Perform a dry fit before installing motors or tendons.
 
 These meshes reproduce the repository's parametric MuJoCo/Blender design. They have been checked for readable binary STL structure, finite non-zero bounds, non-degenerate triangles, deterministic checksums, and correct millimetre scale. They are not a substitute for load testing, collision checks, or machine-specific tolerance calibration.

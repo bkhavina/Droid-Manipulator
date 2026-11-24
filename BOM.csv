@@ -1,17 +1,11 @@
 path,quantity,material,size_mm,triangles,notes
-stl/common_so100_arm/Base.stl,1,PETG,110.925 x 95.9 x 83.496,8868,"shared by two_jaw, three_jaw, five_finger, and five_tentacle"
-stl/common_so100_arm/Base_Motor.stl,1,PETG,24.8 x 45.4 x 39.6,3084,"shared by two_jaw, three_jaw, five_finger, and five_tentacle"
-stl/common_so100_arm/Rotation_Pitch.stl,1,PETG,52.4 x 86.3 x 62.8,6950,"shared by two_jaw, three_jaw, five_finger, and five_tentacle"
-stl/common_so100_arm/Rotation_Pitch_Motor.stl,1,PETG,39.6 x 45.4 x 24.8,3084,"shared by two_jaw, three_jaw, five_finger, and five_tentacle"
-stl/common_so100_arm/Upper_Arm.stl,1,PETG,70.0 x 142.082 x 28.0,4302,"shared by two_jaw, three_jaw, five_finger, and five_tentacle"
-stl/common_so100_arm/Upper_Arm_Motor.stl,1,PETG,39.6 x 24.8 x 45.4,3044,"shared by two_jaw, three_jaw, five_finger, and five_tentacle"
-stl/common_so100_arm/Lower_Arm.stl,1,PETG,61.2 x 36.9 x 130.7,6942,"shared by two_jaw, three_jaw, five_finger, and five_tentacle"
-stl/common_so100_arm/Lower_Arm_Motor.stl,1,PETG,39.6 x 24.8 x 45.4,3036,"shared by two_jaw, three_jaw, five_finger, and five_tentacle"
-stl/common_so100_arm/Wrist_Pitch_Roll.stl,1,PETG,63.275 x 74.4 x 32.0,6832,"shared by two_jaw, three_jaw, five_finger, and five_tentacle"
-stl/common_so100_arm/Wrist_Pitch_Roll_Motor.stl,1,PETG,45.4 x 39.6 x 24.8,2672,"shared by two_jaw, three_jaw, five_finger, and five_tentacle"
-stl/two_jaw/Fixed_Jaw.stl,1,PETG,65.2 x 106.375 x 48.0,5290,
-stl/two_jaw/Fixed_Jaw_Motor.stl,1,PETG,45.4 x 24.8 x 39.6,3036,
-stl/two_jaw/Moving_Jaw.stl,1,PETG,22.3 x 91.955 x 48.0,3542,
+stl/common_so100_arm/Base.stl,2,PETG,110.925 x 95.9 x 83.496,8868,"one per arm; shared by two_jaw, three_jaw, five_finger, and five_tentacle; motor envelope intentionally omitted"
+stl/common_so100_arm/Rotation_Pitch.stl,2,PETG,52.4 x 86.3 x 62.8,6950,"one per arm; shared by two_jaw, three_jaw, five_finger, and five_tentacle; motor envelope intentionally omitted"
+stl/common_so100_arm/Upper_Arm.stl,2,PETG,70.0 x 142.082 x 28.0,4302,"one per arm; shared by two_jaw, three_jaw, five_finger, and five_tentacle; motor envelope intentionally omitted"
+stl/common_so100_arm/Lower_Arm.stl,2,PETG,61.2 x 36.9 x 130.7,6942,"one per arm; shared by two_jaw, three_jaw, five_finger, and five_tentacle; motor envelope intentionally omitted"
+stl/common_so100_arm/Wrist_Pitch_Roll.stl,2,PETG,63.275 x 74.4 x 32.0,6832,"one per arm; shared by two_jaw, three_jaw, five_finger, and five_tentacle; motor envelope intentionally omitted"
+stl/two_jaw/Fixed_Jaw.stl,2,PETG,65.2 x 106.375 x 48.0,5290,one per two-jaw arm; motor envelope intentionally omitted
+stl/two_jaw/Moving_Jaw.stl,2,PETG,22.3 x 91.955 x 48.0,3542,one per two-jaw arm; motor envelope intentionally omitted
 stl/three_jaw/tj_housing.stl,1,PETG,68.0 x 48.0 x 68.0,1412,
 stl/three_jaw/tj_housing_dark.stl,1,PETG,63.632 x 50.5 x 55.106,1644,
 stl/three_jaw/tj_prox.stl,3,PETG,14.0 x 61.0 x 18.0,612,

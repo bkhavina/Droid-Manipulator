@@ -5,9 +5,9 @@
       "path": "stl/common_so100_arm/Base.stl",
       "source": "simulation/xlerobot/meshes/xlerobot/assets/Base.stl",
       "source_to_output_scale": 1000.0,
-      "quantity": 1,
+      "quantity": 2,
       "material": "PETG",
-      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
+      "notes": "one per arm; shared by two_jaw, three_jaw, five_finger, and five_tentacle; motor envelope intentionally omitted",
       "triangles": 8868,
       "bbox_min_mm": [
         -55.462,
@@ -30,40 +30,12 @@
       "sha256": "99be5a2cc76c5e4fb386cf88fee1ce4d888d73171b084dd762efa523fc917a86"
     },
     {
-      "path": "stl/common_so100_arm/Base_Motor.stl",
-      "source": "simulation/xlerobot/meshes/xlerobot/assets/Base_Motor.stl",
-      "source_to_output_scale": 1000.0,
-      "quantity": 1,
-      "material": "PETG",
-      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
-      "triangles": 3084,
-      "bbox_min_mm": [
-        -12.4,
-        -55.4,
-        26.7
-      ],
-      "bbox_max_mm": [
-        12.4,
-        -10.0,
-        66.3
-      ],
-      "size_mm": [
-        24.8,
-        45.4,
-        39.6
-      ],
-      "degenerate_triangles": 0,
-      "boundary_edges": 0,
-      "nonmanifold_edges": 0,
-      "sha256": "354386e47a2a140a39ec21eadacfe0bbc9f1e6f81c56f548eafcbb494e8741d1"
-    },
-    {
       "path": "stl/common_so100_arm/Rotation_Pitch.stl",
       "source": "simulation/xlerobot/meshes/xlerobot/assets/Rotation_Pitch.stl",
       "source_to_output_scale": 1000.0,
-      "quantity": 1,
+      "quantity": 2,
       "material": "PETG",
-      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
+      "notes": "one per arm; shared by two_jaw, three_jaw, five_finger, and five_tentacle; motor envelope intentionally omitted",
       "triangles": 6950,
       "bbox_min_mm": [
         -26.3,
@@ -86,40 +58,12 @@
       "sha256": "7dd04a6546e0658868d0fa6c988c791b66f668d0746abf223a127a0c06e0d0b2"
     },
     {
-      "path": "stl/common_so100_arm/Rotation_Pitch_Motor.stl",
-      "source": "simulation/xlerobot/meshes/xlerobot/assets/Rotation_Pitch_Motor.stl",
-      "source_to_output_scale": 1000.0,
-      "quantity": 1,
-      "material": "PETG",
-      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
-      "triangles": 3084,
-      "bbox_min_mm": [
-        -19.8,
-        67.3,
-        18.2
-      ],
-      "bbox_max_mm": [
-        19.8,
-        112.7,
-        43.0
-      ],
-      "size_mm": [
-        39.6,
-        45.4,
-        24.8
-      ],
-      "degenerate_triangles": 0,
-      "boundary_edges": 0,
-      "nonmanifold_edges": 0,
-      "sha256": "9b09b8a755ea5b9d50d3d2dd1ff22b3320e6652d9f4a85204ac78ea23e3b0c28"
-    },
-    {
       "path": "stl/common_so100_arm/Upper_Arm.stl",
       "source": "simulation/xlerobot/meshes/xlerobot/assets/Upper_Arm.stl",
       "source_to_output_scale": 1000.0,
-      "quantity": 1,
+      "quantity": 2,
       "material": "PETG",
-      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
+      "notes": "one per arm; shared by two_jaw, three_jaw, five_finger, and five_tentacle; motor envelope intentionally omitted",
       "triangles": 4302,
       "bbox_min_mm": [
         -35.1,
@@ -142,40 +86,12 @@
       "sha256": "1ec84a623390ea28796edd8196fc951bf78ad0a931d6c1cb60a4134a0780490f"
     },
     {
-      "path": "stl/common_so100_arm/Upper_Arm_Motor.stl",
-      "source": "simulation/xlerobot/meshes/xlerobot/assets/Upper_Arm_Motor.stl",
-      "source_to_output_scale": 1000.0,
-      "quantity": 1,
-      "material": "PETG",
-      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
-      "triangles": 3044,
-      "bbox_min_mm": [
-        -19.8,
-        100.17,
-        -7.2
-      ],
-      "bbox_max_mm": [
-        19.8,
-        124.97,
-        38.2
-      ],
-      "size_mm": [
-        39.6,
-        24.8,
-        45.4
-      ],
-      "degenerate_triangles": 0,
-      "boundary_edges": 0,
-      "nonmanifold_edges": 0,
-      "sha256": "1ab1b0ceedc4bfd6fa20a175379a06301d79869f809cdc296c76a0a8877df088"
-    },
-    {
       "path": "stl/common_so100_arm/Lower_Arm.stl",
       "source": "simulation/xlerobot/meshes/xlerobot/assets/Lower_Arm.stl",
       "source_to_output_scale": 1000.0,
-      "quantity": 1,
+      "quantity": 2,
       "material": "PETG",
-      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
+      "notes": "one per arm; shared by two_jaw, three_jaw, five_finger, and five_tentacle; motor envelope intentionally omitted",
       "triangles": 6942,
       "bbox_min_mm": [
         -35.1,
@@ -198,40 +114,12 @@
       "sha256": "3f3ae067e3d5f99696ea0bb97ff4a85ee0c8a6aee4e0158ab50b9d97cdaf1295"
     },
     {
-      "path": "stl/common_so100_arm/Lower_Arm_Motor.stl",
-      "source": "simulation/xlerobot/meshes/xlerobot/assets/Lower_Arm_Motor.stl",
-      "source_to_output_scale": 1000.0,
-      "quantity": 1,
-      "material": "PETG",
-      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
-      "triangles": 3036,
-      "bbox_min_mm": [
-        -19.8,
-        -7.2,
-        99.7
-      ],
-      "bbox_max_mm": [
-        19.8,
-        17.6,
-        145.1
-      ],
-      "size_mm": [
-        39.6,
-        24.8,
-        45.4
-      ],
-      "degenerate_triangles": 0,
-      "boundary_edges": 0,
-      "nonmanifold_edges": 0,
-      "sha256": "f92a847fd91ce0a551d3d1ff4d2f61de1a03d0810c6436d7229c557c9ff9c21b"
-    },
-    {
       "path": "stl/common_so100_arm/Wrist_Pitch_Roll.stl",
       "source": "simulation/xlerobot/meshes/xlerobot/assets/Wrist_Pitch_Roll.stl",
       "source_to_output_scale": 1000.0,
-      "quantity": 1,
+      "quantity": 2,
       "material": "PETG",
-      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
+      "notes": "one per arm; shared by two_jaw, three_jaw, five_finger, and five_tentacle; motor envelope intentionally omitted",
       "triangles": 6832,
       "bbox_min_mm": [
         -35.2,
@@ -254,40 +142,12 @@
       "sha256": "6a49e48ee84dfdaa581537859bbb002e0028ec47b0bf79e51e92847ad1441845"
     },
     {
-      "path": "stl/common_so100_arm/Wrist_Pitch_Roll_Motor.stl",
-      "source": "simulation/xlerobot/meshes/xlerobot/assets/Wrist_Pitch_Roll_Motor.stl",
-      "source_to_output_scale": 1000.0,
-      "quantity": 1,
-      "material": "PETG",
-      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
-      "triangles": 2672,
-      "bbox_min_mm": [
-        -35.2,
-        -62.6,
-        -12.4
-      ],
-      "bbox_max_mm": [
-        10.2,
-        -23.0,
-        12.4
-      ],
-      "size_mm": [
-        45.4,
-        39.6,
-        24.8
-      ],
-      "degenerate_triangles": 0,
-      "boundary_edges": 0,
-      "nonmanifold_edges": 0,
-      "sha256": "516760cc945189cf0a18f7e36ec769581fbe946ec904d53eb55f456ccdca0679"
-    },
-    {
       "path": "stl/two_jaw/Fixed_Jaw.stl",
       "source": "simulation/xlerobot/meshes/xlerobot/assets/Fixed_Jaw.stl",
       "source_to_output_scale": 1000.0,
-      "quantity": 1,
+      "quantity": 2,
       "material": "PETG",
-      "notes": "",
+      "notes": "one per two-jaw arm; motor envelope intentionally omitted",
       "triangles": 5290,
       "bbox_min_mm": [
         -30.0,
@@ -310,40 +170,12 @@
       "sha256": "e5272473f049cc10bcb1ee76e3fe1f892606367f220a195b54c752f991cacdaa"
     },
     {
-      "path": "stl/two_jaw/Fixed_Jaw_Motor.stl",
-      "source": "simulation/xlerobot/meshes/xlerobot/assets/Fixed_Jaw_Motor.stl",
-      "source_to_output_scale": 1000.0,
-      "quantity": 1,
-      "material": "PETG",
-      "notes": "",
-      "triangles": 3036,
-      "bbox_min_mm": [
-        -30.4,
-        -36.8,
-        -19.3
-      ],
-      "bbox_max_mm": [
-        15.0,
-        -12.0,
-        20.3
-      ],
-      "size_mm": [
-        45.4,
-        24.8,
-        39.6
-      ],
-      "degenerate_triangles": 0,
-      "boundary_edges": 0,
-      "nonmanifold_edges": 0,
-      "sha256": "53d5a0f6067e24aafc4ff59e19fa1fc59cc3a9715f3d770c17f28f90d7692116"
-    },
-    {
       "path": "stl/two_jaw/Moving_Jaw.stl",
       "source": "simulation/xlerobot/meshes/xlerobot/assets/Moving_Jaw.stl",
       "source_to_output_scale": 1000.0,
-      "quantity": 1,
+      "quantity": 2,
       "material": "PETG",
-      "notes": "",
+      "notes": "one per two-jaw arm; motor envelope intentionally omitted",
       "triangles": 3542,
       "bbox_min_mm": [
         -12.3,

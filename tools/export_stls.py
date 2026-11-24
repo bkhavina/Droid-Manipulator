@@ -160,22 +160,16 @@ def add_stl(destination, source_name, *, quantity=1, material="PETG", notes=""):
     )
 
 
-for name in (
-    "Base",
-    "Base_Motor",
-    "Rotation_Pitch",
-    "Rotation_Pitch_Motor",
-    "Upper_Arm",
-    "Upper_Arm_Motor",
-    "Lower_Arm",
-    "Lower_Arm_Motor",
-    "Wrist_Pitch_Roll",
-    "Wrist_Pitch_Roll_Motor",
-):
-    add_stl(f"common_so100_arm/{name}.stl", name, notes="shared by two_jaw, three_jaw, five_finger, and five_tentacle")
+for name in ("Base", "Rotation_Pitch", "Upper_Arm", "Lower_Arm", "Wrist_Pitch_Roll"):
+    add_stl(
+        f"common_so100_arm/{name}.stl",
+        name,
+        quantity=2,
+        notes="one per arm; shared by two_jaw, three_jaw, five_finger, and five_tentacle; motor envelope intentionally omitted",
+    )
 
-for name in ("Fixed_Jaw", "Fixed_Jaw_Motor", "Moving_Jaw"):
-    add_stl(f"two_jaw/{name}.stl", name)
+for name in ("Fixed_Jaw", "Moving_Jaw"):
+    add_stl(f"two_jaw/{name}.stl", name, quantity=2, notes="one per two-jaw arm; motor envelope intentionally omitted")
 
 for name, quantity, material in (
     ("tj_housing", 1, "PETG"),
@@ -260,6 +254,20 @@ PREVIEWS = {
 
 
 def generate():
+    # Remove motor-envelope files produced by package versions before 2026-11-24.
+    # These are visual references for the physical servos, not printed components.
+    for stale in (
+        "common_so100_arm/Base_Motor.stl",
+        "common_so100_arm/Rotation_Pitch_Motor.stl",
+        "common_so100_arm/Upper_Arm_Motor.stl",
+        "common_so100_arm/Lower_Arm_Motor.stl",
+        "common_so100_arm/Wrist_Pitch_Roll_Motor.stl",
+        "two_jaw/Fixed_Jaw_Motor.stl",
+    ):
+        path = OUT / stale
+        if path.is_file():
+            path.unlink()
+
     manifest = []
     for part in PARTS:
         source = part["source"]
