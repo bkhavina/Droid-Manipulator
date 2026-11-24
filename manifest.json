@@ -1,0 +1,3169 @@
+{
+  "units": "millimetres",
+  "parts": [
+    {
+      "path": "stl/common_so100_arm/Base.stl",
+      "source": "simulation/xlerobot/meshes/xlerobot/assets/Base.stl",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
+      "triangles": 8868,
+      "bbox_min_mm": [
+        -55.462,
+        -71.0,
+        -0.0
+      ],
+      "bbox_max_mm": [
+        55.462,
+        24.9,
+        83.496
+      ],
+      "size_mm": [
+        110.925,
+        95.9,
+        83.496
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "99be5a2cc76c5e4fb386cf88fee1ce4d888d73171b084dd762efa523fc917a86"
+    },
+    {
+      "path": "stl/common_so100_arm/Base_Motor.stl",
+      "source": "simulation/xlerobot/meshes/xlerobot/assets/Base_Motor.stl",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
+      "triangles": 3084,
+      "bbox_min_mm": [
+        -12.4,
+        -55.4,
+        26.7
+      ],
+      "bbox_max_mm": [
+        12.4,
+        -10.0,
+        66.3
+      ],
+      "size_mm": [
+        24.8,
+        45.4,
+        39.6
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "354386e47a2a140a39ec21eadacfe0bbc9f1e6f81c56f548eafcbb494e8741d1"
+    },
+    {
+      "path": "stl/common_so100_arm/Rotation_Pitch.stl",
+      "source": "simulation/xlerobot/meshes/xlerobot/assets/Rotation_Pitch.stl",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
+      "triangles": 6950,
+      "bbox_min_mm": [
+        -26.3,
+        -0.0,
+        -12.0
+      ],
+      "bbox_max_mm": [
+        26.1,
+        86.3,
+        50.8
+      ],
+      "size_mm": [
+        52.4,
+        86.3,
+        62.8
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 9,
+      "sha256": "7dd04a6546e0658868d0fa6c988c791b66f668d0746abf223a127a0c06e0d0b2"
+    },
+    {
+      "path": "stl/common_so100_arm/Rotation_Pitch_Motor.stl",
+      "source": "simulation/xlerobot/meshes/xlerobot/assets/Rotation_Pitch_Motor.stl",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
+      "triangles": 3084,
+      "bbox_min_mm": [
+        -19.8,
+        67.3,
+        18.2
+      ],
+      "bbox_max_mm": [
+        19.8,
+        112.7,
+        43.0
+      ],
+      "size_mm": [
+        39.6,
+        45.4,
+        24.8
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "9b09b8a755ea5b9d50d3d2dd1ff22b3320e6652d9f4a85204ac78ea23e3b0c28"
+    },
+    {
+      "path": "stl/common_so100_arm/Upper_Arm.stl",
+      "source": "simulation/xlerobot/meshes/xlerobot/assets/Upper_Arm.stl",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
+      "triangles": 4302,
+      "bbox_min_mm": [
+        -35.1,
+        -11.913,
+        -12.0
+      ],
+      "bbox_max_mm": [
+        34.9,
+        130.17,
+        16.0
+      ],
+      "size_mm": [
+        70.0,
+        142.082,
+        28.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "1ec84a623390ea28796edd8196fc951bf78ad0a931d6c1cb60a4134a0780490f"
+    },
+    {
+      "path": "stl/common_so100_arm/Upper_Arm_Motor.stl",
+      "source": "simulation/xlerobot/meshes/xlerobot/assets/Upper_Arm_Motor.stl",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
+      "triangles": 3044,
+      "bbox_min_mm": [
+        -19.8,
+        100.17,
+        -7.2
+      ],
+      "bbox_max_mm": [
+        19.8,
+        124.97,
+        38.2
+      ],
+      "size_mm": [
+        39.6,
+        24.8,
+        45.4
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "1ab1b0ceedc4bfd6fa20a175379a06301d79869f809cdc296c76a0a8877df088"
+    },
+    {
+      "path": "stl/common_so100_arm/Lower_Arm.stl",
+      "source": "simulation/xlerobot/meshes/xlerobot/assets/Lower_Arm.stl",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
+      "triangles": 6942,
+      "bbox_min_mm": [
+        -35.1,
+        -15.0,
+        -12.0
+      ],
+      "bbox_max_mm": [
+        26.1,
+        21.9,
+        118.7
+      ],
+      "size_mm": [
+        61.2,
+        36.9,
+        130.7
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 40,
+      "sha256": "3f3ae067e3d5f99696ea0bb97ff4a85ee0c8a6aee4e0158ab50b9d97cdaf1295"
+    },
+    {
+      "path": "stl/common_so100_arm/Lower_Arm_Motor.stl",
+      "source": "simulation/xlerobot/meshes/xlerobot/assets/Lower_Arm_Motor.stl",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
+      "triangles": 3036,
+      "bbox_min_mm": [
+        -19.8,
+        -7.2,
+        99.7
+      ],
+      "bbox_max_mm": [
+        19.8,
+        17.6,
+        145.1
+      ],
+      "size_mm": [
+        39.6,
+        24.8,
+        45.4
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "f92a847fd91ce0a551d3d1ff4d2f61de1a03d0810c6436d7229c557c9ff9c21b"
+    },
+    {
+      "path": "stl/common_so100_arm/Wrist_Pitch_Roll.stl",
+      "source": "simulation/xlerobot/meshes/xlerobot/assets/Wrist_Pitch_Roll.stl",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
+      "triangles": 6832,
+      "bbox_min_mm": [
+        -35.2,
+        -62.4,
+        -16.0
+      ],
+      "bbox_max_mm": [
+        28.075,
+        12.0,
+        16.0
+      ],
+      "size_mm": [
+        63.275,
+        74.4,
+        32.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "6a49e48ee84dfdaa581537859bbb002e0028ec47b0bf79e51e92847ad1441845"
+    },
+    {
+      "path": "stl/common_so100_arm/Wrist_Pitch_Roll_Motor.stl",
+      "source": "simulation/xlerobot/meshes/xlerobot/assets/Wrist_Pitch_Roll_Motor.stl",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "shared by two_jaw, three_jaw, five_finger, and five_tentacle",
+      "triangles": 2672,
+      "bbox_min_mm": [
+        -35.2,
+        -62.6,
+        -12.4
+      ],
+      "bbox_max_mm": [
+        10.2,
+        -23.0,
+        12.4
+      ],
+      "size_mm": [
+        45.4,
+        39.6,
+        24.8
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "516760cc945189cf0a18f7e36ec769581fbe946ec904d53eb55f456ccdca0679"
+    },
+    {
+      "path": "stl/two_jaw/Fixed_Jaw.stl",
+      "source": "simulation/xlerobot/meshes/xlerobot/assets/Fixed_Jaw.stl",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 5290,
+      "bbox_min_mm": [
+        -30.0,
+        -106.375,
+        -24.0
+      ],
+      "bbox_max_mm": [
+        35.2,
+        0.0,
+        24.0
+      ],
+      "size_mm": [
+        65.2,
+        106.375,
+        48.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "e5272473f049cc10bcb1ee76e3fe1f892606367f220a195b54c752f991cacdaa"
+    },
+    {
+      "path": "stl/two_jaw/Fixed_Jaw_Motor.stl",
+      "source": "simulation/xlerobot/meshes/xlerobot/assets/Fixed_Jaw_Motor.stl",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 3036,
+      "bbox_min_mm": [
+        -30.4,
+        -36.8,
+        -19.3
+      ],
+      "bbox_max_mm": [
+        15.0,
+        -12.0,
+        20.3
+      ],
+      "size_mm": [
+        45.4,
+        24.8,
+        39.6
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "53d5a0f6067e24aafc4ff59e19fa1fc59cc3a9715f3d770c17f28f90d7692116"
+    },
+    {
+      "path": "stl/two_jaw/Moving_Jaw.stl",
+      "source": "simulation/xlerobot/meshes/xlerobot/assets/Moving_Jaw.stl",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 3542,
+      "bbox_min_mm": [
+        -12.3,
+        -82.0,
+        -23.9
+      ],
+      "bbox_max_mm": [
+        10.0,
+        9.955,
+        24.1
+      ],
+      "size_mm": [
+        22.3,
+        91.955,
+        48.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "5f520cb7a46e2cf203d0881d5a1dcbdba680fb570ed37b42bd9cb75145b278e7"
+    },
+    {
+      "path": "stl/three_jaw/tj_housing.stl",
+      "source": "simulation/mujoco_multi/assets/tj_housing.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 1412,
+      "bbox_min_mm": [
+        -34.0,
+        -52.0,
+        -34.0
+      ],
+      "bbox_max_mm": [
+        34.0,
+        -4.0,
+        34.0
+      ],
+      "size_mm": [
+        68.0,
+        48.0,
+        68.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "7c2b1e94bf9997e1d843bf93fbaf1f8ca4d4989abd77803c0bb22e6130fde300"
+    },
+    {
+      "path": "stl/three_jaw/tj_housing_dark.stl",
+      "source": "simulation/mujoco_multi/assets/tj_housing_dark.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 1644,
+      "bbox_min_mm": [
+        -31.816,
+        -50.5,
+        -27.606
+      ],
+      "bbox_max_mm": [
+        31.816,
+        -0.0,
+        27.5
+      ],
+      "size_mm": [
+        63.632,
+        50.5,
+        55.106
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "a0d93fb9966bb6a4cc3dc505e34a034c696785f37fd1d8c253591595562cd7b7"
+    },
+    {
+      "path": "stl/three_jaw/tj_prox.stl",
+      "source": "simulation/mujoco_multi/assets/tj_prox.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 3,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 612,
+      "bbox_min_mm": [
+        -7.0,
+        -54.0,
+        -9.0
+      ],
+      "bbox_max_mm": [
+        7.0,
+        7.0,
+        9.0
+      ],
+      "size_mm": [
+        14.0,
+        61.0,
+        18.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "4a3c66d5f40835743004296cc794b98f32f3dabcf0f6bf23f0157947750290d6"
+    },
+    {
+      "path": "stl/three_jaw/tj_dist.stl",
+      "source": "simulation/mujoco_multi/assets/tj_dist.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 3,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 1192,
+      "bbox_min_mm": [
+        -6.5,
+        -41.0,
+        -9.0
+      ],
+      "bbox_max_mm": [
+        6.5,
+        6.5,
+        9.0
+      ],
+      "size_mm": [
+        13.0,
+        47.5,
+        18.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "55b8f14e9c7d656465e2e1dbbddb03afdfdb81c34b1630f4dd05689fde6c950b"
+    },
+    {
+      "path": "stl/three_jaw/tj_pad.stl",
+      "source": "simulation/mujoco_multi/assets/tj_pad.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 3,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 168,
+      "bbox_min_mm": [
+        5.5,
+        -36.0,
+        -7.5
+      ],
+      "bbox_max_mm": [
+        9.5,
+        -6.0,
+        7.5
+      ],
+      "size_mm": [
+        4.0,
+        30.0,
+        15.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "24e5cfe34d5f2348d3931e901d5a17de8f4a53d531af75e5fe25ef189a310113"
+    },
+    {
+      "path": "stl/five_finger/hand_palm_p.stl",
+      "source": "simulation/mujoco_multi/assets/hand_palm_p.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "choose p or n chirality for the robot side",
+      "triangles": 2020,
+      "bbox_min_mm": [
+        -28.0,
+        -114.0,
+        -43.0
+      ],
+      "bbox_max_mm": [
+        28.0,
+        -2.0,
+        49.0
+      ],
+      "size_mm": [
+        56.0,
+        112.0,
+        92.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "a5bf0d5b6a23412fd9dbedcb116ec3e80c3710b2e3113db152a7bcc366741b94"
+    },
+    {
+      "path": "stl/five_finger/hand_palm_n.stl",
+      "source": "simulation/mujoco_multi/assets/hand_palm_n.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "choose p or n chirality for the robot side",
+      "triangles": 2020,
+      "bbox_min_mm": [
+        -28.0,
+        -114.0,
+        -49.0
+      ],
+      "bbox_max_mm": [
+        28.0,
+        -2.0,
+        43.0
+      ],
+      "size_mm": [
+        56.0,
+        112.0,
+        92.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "79a99fc4bdd16d051f46d65481e0663483628e72e29f4516013386227f614e2f"
+    },
+    {
+      "path": "stl/five_finger/hand_palm_dark_p.stl",
+      "source": "simulation/mujoco_multi/assets/hand_palm_dark_p.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "choose p or n chirality for the robot side",
+      "triangles": 108,
+      "bbox_min_mm": [
+        -14.0,
+        -70.0,
+        -30.0
+      ],
+      "bbox_max_mm": [
+        -10.0,
+        -42.0,
+        30.0
+      ],
+      "size_mm": [
+        4.0,
+        28.0,
+        60.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "3e02de826076ad3e0f9b2ffef9194966a2a61da55401bcd245684f54556af401"
+    },
+    {
+      "path": "stl/five_finger/hand_palm_dark_n.stl",
+      "source": "simulation/mujoco_multi/assets/hand_palm_dark_n.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "choose p or n chirality for the robot side",
+      "triangles": 108,
+      "bbox_min_mm": [
+        -14.0,
+        -70.0,
+        -30.0
+      ],
+      "bbox_max_mm": [
+        -10.0,
+        -42.0,
+        30.0
+      ],
+      "size_mm": [
+        4.0,
+        28.0,
+        60.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "3e02de826076ad3e0f9b2ffef9194966a2a61da55401bcd245684f54556af401"
+    },
+    {
+      "path": "stl/five_finger/hand_palm_pad_p.stl",
+      "source": "simulation/mujoco_multi/assets/hand_palm_pad_p.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "choose p or n chirality for the robot side",
+      "triangles": 1068,
+      "bbox_min_mm": [
+        13.0,
+        -100.0,
+        -35.0
+      ],
+      "bbox_max_mm": [
+        25.0,
+        -28.0,
+        41.0
+      ],
+      "size_mm": [
+        12.0,
+        72.0,
+        76.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "a10ac5a15e8ff3c6ffe503bdb508ab9b15c36738a9ef02a8ffd1d7bbb8dc4aa3"
+    },
+    {
+      "path": "stl/five_finger/hand_palm_pad_n.stl",
+      "source": "simulation/mujoco_multi/assets/hand_palm_pad_n.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "choose p or n chirality for the robot side",
+      "triangles": 1068,
+      "bbox_min_mm": [
+        13.0,
+        -100.0,
+        -41.0
+      ],
+      "bbox_max_mm": [
+        25.0,
+        -28.0,
+        35.0
+      ],
+      "size_mm": [
+        12.0,
+        72.0,
+        76.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "abe323e40ae1d0a353e9a46969363fe10c048cfd0ade7643b99ded78f7f062a4"
+    },
+    {
+      "path": "stl/five_finger/hand_index_1.stl",
+      "source": "simulation/mujoco_multi/assets/hand_index_1.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 596,
+      "bbox_min_mm": [
+        -8.364,
+        -47.74,
+        -8.2
+      ],
+      "bbox_max_mm": [
+        8.364,
+        8.364,
+        8.2
+      ],
+      "size_mm": [
+        16.728,
+        56.104,
+        16.4
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "709f0e0cd36033579484b992467c889566d2d63728605cf1aca880acd42efaf1"
+    },
+    {
+      "path": "stl/five_finger/hand_index_2.stl",
+      "source": "simulation/mujoco_multi/assets/hand_index_2.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 596,
+      "bbox_min_mm": [
+        -8.364,
+        -31.74,
+        -8.2
+      ],
+      "bbox_max_mm": [
+        8.364,
+        8.364,
+        8.2
+      ],
+      "size_mm": [
+        16.728,
+        40.104,
+        16.4
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "d91f729dcc01a343debe56723c41dfd79dc91f5ec8cc518bc43bcc1dabf77f42"
+    },
+    {
+      "path": "stl/five_finger/hand_index_3.stl",
+      "source": "simulation/mujoco_multi/assets/hand_index_3.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 1564,
+      "bbox_min_mm": [
+        -8.364,
+        -22.23,
+        -7.79
+      ],
+      "bbox_max_mm": [
+        8.364,
+        8.364,
+        7.79
+      ],
+      "size_mm": [
+        16.728,
+        30.594,
+        15.58
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "373a79b5938aaa2db74c9d2a609caa98c32a90a107628116e694d5ff5d7da0e0"
+    },
+    {
+      "path": "stl/five_finger/hand_middle_1.stl",
+      "source": "simulation/mujoco_multi/assets/hand_middle_1.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 596,
+      "bbox_min_mm": [
+        -8.364,
+        -51.74,
+        -8.2
+      ],
+      "bbox_max_mm": [
+        8.364,
+        8.364,
+        8.2
+      ],
+      "size_mm": [
+        16.728,
+        60.104,
+        16.4
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "368cc6fbfe81531eca84e12e5642303f34448332eefd06fbd0bd741a3c6982e4"
+    },
+    {
+      "path": "stl/five_finger/hand_middle_2.stl",
+      "source": "simulation/mujoco_multi/assets/hand_middle_2.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 596,
+      "bbox_min_mm": [
+        -8.364,
+        -34.74,
+        -8.2
+      ],
+      "bbox_max_mm": [
+        8.364,
+        8.364,
+        8.2
+      ],
+      "size_mm": [
+        16.728,
+        43.104,
+        16.4
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "1360b565a30d0606fc4a44c65c5d1a208f29db67458fdd3faf5a84b2aa41061b"
+    },
+    {
+      "path": "stl/five_finger/hand_middle_3.stl",
+      "source": "simulation/mujoco_multi/assets/hand_middle_3.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 1564,
+      "bbox_min_mm": [
+        -8.364,
+        -24.23,
+        -7.79
+      ],
+      "bbox_max_mm": [
+        8.364,
+        8.364,
+        7.79
+      ],
+      "size_mm": [
+        16.728,
+        32.594,
+        15.58
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "6980f7b3ae7e7f851c257baceb1ff43f0ba7e27222424736ddc0a30342617723"
+    },
+    {
+      "path": "stl/five_finger/hand_ring_1.stl",
+      "source": "simulation/mujoco_multi/assets/hand_ring_1.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 596,
+      "bbox_min_mm": [
+        -8.364,
+        -48.74,
+        -8.2
+      ],
+      "bbox_max_mm": [
+        8.364,
+        8.364,
+        8.2
+      ],
+      "size_mm": [
+        16.728,
+        57.104,
+        16.4
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "b780fd9c2b4d89f3100557b90f31e7253a92f0a7b6b9d35ae88747f2a20808cb"
+    },
+    {
+      "path": "stl/five_finger/hand_ring_2.stl",
+      "source": "simulation/mujoco_multi/assets/hand_ring_2.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 596,
+      "bbox_min_mm": [
+        -8.364,
+        -32.74,
+        -8.2
+      ],
+      "bbox_max_mm": [
+        8.364,
+        8.364,
+        8.2
+      ],
+      "size_mm": [
+        16.728,
+        41.104,
+        16.4
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "a2824652d4c96730659ba1c289823627660011be03efd98245c183f0da798ac8"
+    },
+    {
+      "path": "stl/five_finger/hand_ring_3.stl",
+      "source": "simulation/mujoco_multi/assets/hand_ring_3.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 1564,
+      "bbox_min_mm": [
+        -8.364,
+        -22.23,
+        -7.79
+      ],
+      "bbox_max_mm": [
+        8.364,
+        8.364,
+        7.79
+      ],
+      "size_mm": [
+        16.728,
+        30.594,
+        15.58
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "c6e18258b7d344c88dd5d388fcedca613cc2671ae5faa1b7f5956d6924a5f5b3"
+    },
+    {
+      "path": "stl/five_finger/hand_pinky_1.stl",
+      "source": "simulation/mujoco_multi/assets/hand_pinky_1.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 596,
+      "bbox_min_mm": [
+        -8.364,
+        -39.74,
+        -8.2
+      ],
+      "bbox_max_mm": [
+        8.364,
+        8.364,
+        8.2
+      ],
+      "size_mm": [
+        16.728,
+        48.104,
+        16.4
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "91087efb6bea28d97b6dcfc95c5fb9dbc8d2b654d67e7738edbd15686498bdb2"
+    },
+    {
+      "path": "stl/five_finger/hand_pinky_2.stl",
+      "source": "simulation/mujoco_multi/assets/hand_pinky_2.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 596,
+      "bbox_min_mm": [
+        -8.364,
+        -26.74,
+        -8.2
+      ],
+      "bbox_max_mm": [
+        8.364,
+        8.364,
+        8.2
+      ],
+      "size_mm": [
+        16.728,
+        35.104,
+        16.4
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "bdeb2812e79730d7099300b7c4f2fd60d9461e49dfffd48b38e4e395089c7825"
+    },
+    {
+      "path": "stl/five_finger/hand_pinky_3.stl",
+      "source": "simulation/mujoco_multi/assets/hand_pinky_3.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 1564,
+      "bbox_min_mm": [
+        -8.364,
+        -19.23,
+        -7.79
+      ],
+      "bbox_max_mm": [
+        8.364,
+        8.364,
+        7.79
+      ],
+      "size_mm": [
+        16.728,
+        27.594,
+        15.58
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "de85f28ee64be54d336f2284497dcd15c06a05b7e2e78d8a172639a2dea04a36"
+    },
+    {
+      "path": "stl/five_finger/hand_thumb_1.stl",
+      "source": "simulation/mujoco_multi/assets/hand_thumb_1.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 596,
+      "bbox_min_mm": [
+        -9.69,
+        -46.65,
+        -9.5
+      ],
+      "bbox_max_mm": [
+        9.69,
+        9.69,
+        9.5
+      ],
+      "size_mm": [
+        19.38,
+        56.34,
+        19.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "31e3ea47d857f3c85c8e854e1e60a6da2ae49f293cb3d9ba9aaaec420d22a2c0"
+    },
+    {
+      "path": "stl/five_finger/hand_thumb_2.stl",
+      "source": "simulation/mujoco_multi/assets/hand_thumb_2.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 596,
+      "bbox_min_mm": [
+        -9.69,
+        -38.65,
+        -9.5
+      ],
+      "bbox_max_mm": [
+        9.69,
+        9.69,
+        9.5
+      ],
+      "size_mm": [
+        19.38,
+        48.34,
+        19.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "cb32cd460f3757e26299290a523d02be99e6c17e8e778959e8edc931624e3779"
+    },
+    {
+      "path": "stl/five_finger/hand_thumb_3.stl",
+      "source": "simulation/mujoco_multi/assets/hand_thumb_3.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 1564,
+      "bbox_min_mm": [
+        -9.69,
+        -27.425,
+        -9.025
+      ],
+      "bbox_max_mm": [
+        9.69,
+        9.69,
+        9.025
+      ],
+      "size_mm": [
+        19.38,
+        37.115,
+        18.05
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "fb23063a804c4f234d16a3426e10373058bd6042d7f414f90a3c59385b182c55"
+    },
+    {
+      "path": "stl/tentacle/tent_mount.stl",
+      "source": "simulation/mujoco_multi/assets/tent_mount.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 804,
+      "bbox_min_mm": [
+        -68.2,
+        -34.0,
+        -70.0
+      ],
+      "bbox_max_mm": [
+        34.0,
+        34.0,
+        70.0
+      ],
+      "size_mm": [
+        102.2,
+        68.0,
+        140.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "81ea21766eb0806c9a628b6adb1dc4fa55153516c72d775c47bbe73443dc9356"
+    },
+    {
+      "path": "stl/tentacle/tent_yaw.stl",
+      "source": "simulation/mujoco_multi/assets/tent_yaw.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 1656,
+      "bbox_min_mm": [
+        -36.0,
+        -40.0,
+        -14.0
+      ],
+      "bbox_max_mm": [
+        44.0,
+        40.0,
+        30.0
+      ],
+      "size_mm": [
+        80.0,
+        80.0,
+        44.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "ec179d9804d76996bd5711e19effcc41e783d9f2b9e1a167550a1a8463568fb5"
+    },
+    {
+      "path": "stl/tentacle/tent_base.stl",
+      "source": "simulation/mujoco_multi/assets/tent_base.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 788,
+      "bbox_min_mm": [
+        -30.0,
+        -34.0,
+        -34.0
+      ],
+      "bbox_max_mm": [
+        52.0,
+        34.0,
+        34.0
+      ],
+      "size_mm": [
+        82.0,
+        68.0,
+        68.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "c764f2da860d34d7c08721959acb3491f8fd2500c87ce61b81c10a9d8f4d8338"
+    },
+    {
+      "path": "stl/tentacle/tent_base_ring.stl",
+      "source": "simulation/mujoco_multi/assets/tent_base_ring.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 1152,
+      "bbox_min_mm": [
+        44.671,
+        -35.7,
+        -35.7
+      ],
+      "bbox_max_mm": [
+        53.5,
+        35.7,
+        35.7
+      ],
+      "size_mm": [
+        8.829,
+        71.4,
+        71.4
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "11f476b22ded1afaf676c0551cf9cc46f9bed9502e6bedcc9f70840dd87016a9"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_00_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -1.4,
+        -28.98,
+        -28.98
+      ],
+      "bbox_max_mm": [
+        50.0,
+        28.98,
+        28.98
+      ],
+      "size_mm": [
+        51.4,
+        57.96,
+        57.96
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "9fed457f061cd0413172037e5cf5b39dff90e03d44b9327e5462845edf237c7c"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_00_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        5.208,
+        -20.852,
+        -29.232
+      ],
+      "bbox_max_mm": [
+        44.483,
+        20.852,
+        -16.112
+      ],
+      "size_mm": [
+        39.275,
+        41.704,
+        13.12
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "f5781ac820fa4646c0065f6d9134ddf1ea15c5629a8a120e114d02e9a21c0541"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_01_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 922.0,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -1.291,
+        -26.72,
+        -26.72
+      ],
+      "bbox_max_mm": [
+        46.1,
+        26.72,
+        26.72
+      ],
+      "size_mm": [
+        47.391,
+        53.439,
+        53.439
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "ea5ea7593eddf09a9f8d9c1ea075554c7e614ed1bec2b9834bceed5856a26595"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_01_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 922.0,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        4.802,
+        -19.226,
+        -26.952
+      ],
+      "bbox_max_mm": [
+        41.013,
+        19.226,
+        -14.855
+      ],
+      "size_mm": [
+        36.212,
+        38.451,
+        12.097
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "3713335503fd2c5a154d073ef81887e005bafc22129af809a19e2cad70c45b19"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_02_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 850.0840000000001,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -1.19,
+        -24.635,
+        -24.635
+      ],
+      "bbox_max_mm": [
+        42.504,
+        24.635,
+        24.635
+      ],
+      "size_mm": [
+        43.694,
+        49.271,
+        49.271
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "9fceba010a8e3ce27ac6f4531bce7fe18dcb6b135f5f791ef278468d16555be0"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_02_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 850.0840000000001,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        4.427,
+        -17.726,
+        -24.85
+      ],
+      "bbox_max_mm": [
+        37.814,
+        17.726,
+        -13.697
+      ],
+      "size_mm": [
+        33.387,
+        35.452,
+        11.153
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "f77201a0aa4165cb5bedd5e3427c79cf159504e121b5bd3af7bddc62037aca93"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_03_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 783.7774480000002,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -1.097,
+        -22.714,
+        -22.714
+      ],
+      "bbox_max_mm": [
+        39.189,
+        22.714,
+        22.714
+      ],
+      "size_mm": [
+        40.286,
+        45.428,
+        45.428
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "57ad6d7bf11a5b20c7bdd3a38cef7dcc0da46aa73ed4cf000c627eb3101d0800"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_03_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 783.7774480000002,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        4.082,
+        -16.343,
+        -22.911
+      ],
+      "bbox_max_mm": [
+        34.865,
+        16.343,
+        -12.628
+      ],
+      "size_mm": [
+        30.783,
+        32.687,
+        10.283
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "a47ce715b0f70c0e22e23b19ae4897c34d9fc587f25ae2d05b9062e1355262f8"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_04_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 722.6428070560002,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -1.012,
+        -20.942,
+        -20.942
+      ],
+      "bbox_max_mm": [
+        36.132,
+        20.942,
+        20.942
+      ],
+      "size_mm": [
+        37.144,
+        41.884,
+        41.884
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "f9e17f4aa83e9293a9db2c7134b7bf6354529c9eef29e2ee78a401f6fce5c16b"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_04_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 722.6428070560002,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        3.764,
+        -15.069,
+        -21.124
+      ],
+      "bbox_max_mm": [
+        32.145,
+        15.069,
+        -11.643
+      ],
+      "size_mm": [
+        28.382,
+        30.137,
+        9.481
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "1904db2373bd3332ee748ae6005fc5dd9433a1663d0c23bdee6f40f3b7b8035f"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_05_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 666.2766681056321,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -0.933,
+        -19.309,
+        -19.309
+      ],
+      "bbox_max_mm": [
+        33.314,
+        19.309,
+        19.309
+      ],
+      "size_mm": [
+        34.247,
+        38.617,
+        38.617
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "6d0a211a6c3225f0a78a148ece7f35c191fa58463a5c9fc76e8c92808d39c6fe"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_05_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 666.2766681056321,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        3.47,
+        -13.893,
+        -19.477
+      ],
+      "bbox_max_mm": [
+        29.638,
+        13.893,
+        -10.735
+      ],
+      "size_mm": [
+        26.168,
+        27.786,
+        8.742
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "e3448e3f56d03458362f68a77487dfaa14d55a57ab5755591a39938de3b60ef3"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_06_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 614.3070879933929,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -0.86,
+        -17.803,
+        -17.803
+      ],
+      "bbox_max_mm": [
+        30.715,
+        17.803,
+        17.803
+      ],
+      "size_mm": [
+        31.575,
+        35.605,
+        35.605
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "2bc3807cc761f5542bc214ee7ef2917ba7d1c8c1bd8a147ffa41f4b571de0946"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_06_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 614.3070879933929,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        3.199,
+        -12.81,
+        -17.957
+      ],
+      "bbox_max_mm": [
+        27.326,
+        12.81,
+        -9.898
+      ],
+      "size_mm": [
+        24.127,
+        25.619,
+        8.06
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "0b95beaaa2a78972f2c555e0b61ddbaaea31d86531da9716adc7bd77ee8b1d3d"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_07_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 566.3911351299082,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -0.793,
+        -16.414,
+        -16.414
+      ],
+      "bbox_max_mm": [
+        28.32,
+        16.414,
+        16.414
+      ],
+      "size_mm": [
+        29.113,
+        32.828,
+        32.828
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "f3eeddc973144d5a708e1cef4acb69a2aea6d1344dd0acec7b2e960af69fe5a2"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_07_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 566.3911351299082,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        2.95,
+        -11.81,
+        -16.557
+      ],
+      "bbox_max_mm": [
+        25.195,
+        11.81,
+        -9.126
+      ],
+      "size_mm": [
+        22.245,
+        23.621,
+        7.431
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "68ead3969c5cd826e68db04661df6a5dfa334bf653c85e4b20544f41ab31df77"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_08_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 522.2126265897754,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -0.731,
+        -15.134,
+        -15.134
+      ],
+      "bbox_max_mm": [
+        26.111,
+        15.134,
+        15.134
+      ],
+      "size_mm": [
+        26.842,
+        30.267,
+        30.267
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "a036f9fb4a1759a642dd689ab85fbcebfd1be8d93a30e1472066c3b0983c55f6"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_08_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 522.2126265897754,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        2.72,
+        -10.889,
+        -15.265
+      ],
+      "bbox_max_mm": [
+        23.23,
+        10.889,
+        -8.414
+      ],
+      "size_mm": [
+        20.51,
+        21.778,
+        6.851
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "c4b82871f3d13f00249ce53b80c4b13b6251518f369d02e1242612ba14ffab32"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_09_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 481.480041715773,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -0.674,
+        -13.953,
+        -13.953
+      ],
+      "bbox_max_mm": [
+        24.074,
+        13.953,
+        13.953
+      ],
+      "size_mm": [
+        24.748,
+        27.907,
+        27.907
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "ec101f5cae7bbf7533d95bd25adab63d6542379705790b33adf46a56fc688ac9"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_09_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 481.480041715773,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        2.508,
+        -10.04,
+        -14.075
+      ],
+      "bbox_max_mm": [
+        21.418,
+        10.04,
+        -7.758
+      ],
+      "size_mm": [
+        18.91,
+        20.08,
+        6.317
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "c68c2d1d32d1f605d09c042ebe67ddf6e399f03774ed89c3eb2ed33b889c9af1"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_10_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 443.9245984619427,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -0.621,
+        -12.865,
+        -12.865
+      ],
+      "bbox_max_mm": [
+        22.196,
+        12.865,
+        12.865
+      ],
+      "size_mm": [
+        22.818,
+        25.73,
+        25.73
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "f0aacc5dfcc215dcef396a0247d8bcb55e94c6b4a20af889dda8923940be687b"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_10_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 443.9245984619427,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        2.312,
+        -9.257,
+        -12.977
+      ],
+      "bbox_max_mm": [
+        19.747,
+        9.257,
+        -7.153
+      ],
+      "size_mm": [
+        17.435,
+        18.513,
+        5.824
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "b7133b75f3a6ecc05a3d56c82fd725dbb54f9dcc5169d4c9236fc13562e4b361"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_11_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 409.29847978191117,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -0.573,
+        -11.861,
+        -11.861
+      ],
+      "bbox_max_mm": [
+        20.465,
+        11.861,
+        11.861
+      ],
+      "size_mm": [
+        21.038,
+        23.723,
+        23.723
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "eca5699720be992a41fcc260b9df096a9bc7309cdd8ca9d69b110a1908bc9e02"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_11_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 409.29847978191117,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        2.132,
+        -8.535,
+        -11.965
+      ],
+      "bbox_max_mm": [
+        18.207,
+        8.535,
+        -6.595
+      ],
+      "size_mm": [
+        16.075,
+        17.069,
+        5.37
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "43f7a123951e77b21305581ab225a9bf5483f6dacc84fdca0a388a4a50106e3d"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_12_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 377.37319835892214,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -0.528,
+        -10.936,
+        -10.936
+      ],
+      "bbox_max_mm": [
+        18.869,
+        10.936,
+        10.936
+      ],
+      "size_mm": [
+        19.397,
+        21.873,
+        21.873
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "ad7d469d35ba430f55502c6918435962a9e70a4b2eb1fcf7a3c485bda1697f1d"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_12_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 377.37319835892214,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        1.965,
+        -7.869,
+        -11.031
+      ],
+      "bbox_max_mm": [
+        16.787,
+        7.869,
+        -6.08
+      ],
+      "size_mm": [
+        14.821,
+        15.738,
+        4.951
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "c3138848d27eab5d2e88d24dcb981b9d857f01fdd502085d285c6e07c27c77d8"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_13_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 347.9380888869262,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -0.487,
+        -10.083,
+        -10.083
+      ],
+      "bbox_max_mm": [
+        17.397,
+        10.083,
+        10.083
+      ],
+      "size_mm": [
+        17.884,
+        20.166,
+        20.166
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "bc7be463cbc0d627d97c71a274074dcb4b840f722ac1a9ea4528dc153fd71c05"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_13_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 347.9380888869262,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        1.812,
+        -7.255,
+        -10.171
+      ],
+      "bbox_max_mm": [
+        15.477,
+        7.255,
+        -5.606
+      ],
+      "size_mm": [
+        13.665,
+        14.51,
+        4.565
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "63c2b3b6d81b1c2e901d370146988b1f03c4a8c37db7a6e149e527ab4b79264b"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_14_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 320.798917953746,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -0.449,
+        -9.297,
+        -9.297
+      ],
+      "bbox_max_mm": [
+        16.04,
+        9.297,
+        9.297
+      ],
+      "size_mm": [
+        16.489,
+        18.594,
+        18.594
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "daaea47cd0dec3e81e5d337f74bd9f6cd0f089ea0993283bcd84a4f117f22748"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_14_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 320.798917953746,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        1.671,
+        -6.689,
+        -9.378
+      ],
+      "bbox_max_mm": [
+        14.27,
+        6.689,
+        -5.169
+      ],
+      "size_mm": [
+        12.599,
+        13.379,
+        4.209
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "e7897359a18a6898a5df899ee1f6dbd0b089681724906334393a3555508f1288"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_15_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 295.7766023533538,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -0.414,
+        -8.572,
+        -8.572
+      ],
+      "bbox_max_mm": [
+        14.789,
+        8.572,
+        8.572
+      ],
+      "size_mm": [
+        15.203,
+        17.143,
+        17.143
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "80061f3ae81e9a1afa394bbed0f76b1531c6b41512742d990faf05a13d21690a"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_15_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 295.7766023533538,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        1.54,
+        -6.168,
+        -8.646
+      ],
+      "bbox_max_mm": [
+        13.157,
+        6.168,
+        -4.766
+      ],
+      "size_mm": [
+        11.617,
+        12.335,
+        3.881
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "169dec23599e609a6ee1e2c64ca16cfc1d1594b32e71cc14b5edb18205733987"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_16_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 272.7060273697922,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -0.382,
+        -7.903,
+        -7.903
+      ],
+      "bbox_max_mm": [
+        13.635,
+        7.903,
+        7.903
+      ],
+      "size_mm": [
+        14.017,
+        15.806,
+        15.806
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "be8368867106764da6b2fdfe3be0978c68ecd9ae86cd7600549e5affb118cda5"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_16_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 272.7060273697922,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        1.42,
+        -5.686,
+        -7.972
+      ],
+      "bbox_max_mm": [
+        12.131,
+        5.686,
+        -4.394
+      ],
+      "size_mm": [
+        10.711,
+        11.373,
+        3.578
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "3573dc8075082e13a5434a77639cc63607a4d0e368018a3c20c7a680796de8b9"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_17_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_seg.obj",
+      "source_to_output_scale": 251.43495723494846,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 1468,
+      "bbox_min_mm": [
+        -0.352,
+        -7.287,
+        -7.287
+      ],
+      "bbox_max_mm": [
+        12.572,
+        7.287,
+        7.287
+      ],
+      "size_mm": [
+        12.924,
+        14.573,
+        14.573
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "a2b0a7ced5f4fa73dcb7a1d14998ded6391b4db81b0ec0c25d5f8d314a95e193"
+    },
+    {
+      "path": "stl/tentacle/segments/segment_17_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_suckers.obj",
+      "source_to_output_scale": 251.43495723494846,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 1904,
+      "bbox_min_mm": [
+        1.309,
+        -5.243,
+        -7.35
+      ],
+      "bbox_max_mm": [
+        11.185,
+        5.243,
+        -4.051
+      ],
+      "size_mm": [
+        9.875,
+        10.486,
+        3.299
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "e21d252342fb573997ec894d5834a36fac1263848a923a39110711f232735a7a"
+    },
+    {
+      "path": "stl/tentacle/segments/tip_body.stl",
+      "source": "simulation/mujoco_multi/assets/tent_tip.obj",
+      "source_to_output_scale": 251.43495723494846,
+      "quantity": 1,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 612,
+      "bbox_min_mm": [
+        0.0,
+        -6.491,
+        -6.491
+      ],
+      "bbox_max_mm": [
+        11.315,
+        6.491,
+        6.491
+      ],
+      "size_mm": [
+        11.315,
+        12.982,
+        12.982
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "3cc965c99ad315142f6de527db01d9e24868454e21c2207c59c6ca09f67f1bee"
+    },
+    {
+      "path": "stl/tentacle/segments/tip_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/tent_tip_suckers.obj",
+      "source_to_output_scale": 251.43495723494846,
+      "quantity": 1,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 632,
+      "bbox_min_mm": [
+        -0.03,
+        -2.293,
+        -6.509
+      ],
+      "bbox_max_mm": [
+        7.535,
+        2.293,
+        -4.302
+      ],
+      "size_mm": [
+        7.565,
+        4.586,
+        2.208
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "59fa0371f7b376d546b415b438508fb4da1dde9fe4cd0066642f45741dcf40a8"
+    },
+    {
+      "path": "stl/five_tentacle/ft_hub.stl",
+      "source": "simulation/mujoco_multi/assets/ft_hub.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 4868,
+      "bbox_min_mm": [
+        -26.0,
+        -52.423,
+        -26.0
+      ],
+      "bbox_max_mm": [
+        26.0,
+        -2.0,
+        26.0
+      ],
+      "size_mm": [
+        52.0,
+        50.423,
+        52.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "8a3c0f0d6a3e58746e2d2c6b771d04facde1d5c43d960a19da995b1e66d8b7db"
+    },
+    {
+      "path": "stl/five_tentacle/ft_hub_orange.stl",
+      "source": "simulation/mujoco_multi/assets/ft_hub_orange.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 2560,
+      "bbox_min_mm": [
+        -25.673,
+        -53.636,
+        -25.076
+      ],
+      "bbox_max_mm": [
+        23.439,
+        -41.103,
+        25.076
+      ],
+      "size_mm": [
+        49.112,
+        12.533,
+        50.152
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "81751dd7bfc962a97ace2bbfd14d8ffb1a6f8f999f1d7396cbeffe99c73ae8fa"
+    },
+    {
+      "path": "stl/five_tentacle/ft_hub_dark.stl",
+      "source": "simulation/mujoco_multi/assets/ft_hub_dark.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG",
+      "notes": "",
+      "triangles": 696,
+      "bbox_min_mm": [
+        -26.8,
+        -48.5,
+        -26.8
+      ],
+      "bbox_max_mm": [
+        26.8,
+        -2.0,
+        26.8
+      ],
+      "size_mm": [
+        53.6,
+        46.5,
+        53.6
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "0d969d3ff3a1367ace06c3b4b33131a612329cbcb7eefbc0125f6f63065c5e32"
+    },
+    {
+      "path": "stl/five_tentacle/ft_hub_lens.stl",
+      "source": "simulation/mujoco_multi/assets/ft_hub_lens.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "clear PETG",
+      "notes": "",
+      "triangles": 92,
+      "bbox_min_mm": [
+        -4.5,
+        -50.0,
+        -4.5
+      ],
+      "bbox_max_mm": [
+        4.5,
+        -48.0,
+        4.5
+      ],
+      "size_mm": [
+        9.0,
+        2.0,
+        9.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "2bef80261c326b8d60f0041cfd771b249fce894f2a226ac977edc56e47f80b23"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_00_body.stl",
+      "source": "simulation/mujoco_multi/assets/ft_seg.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 5,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 524,
+      "bbox_min_mm": [
+        0.0,
+        -8.557,
+        -8.557
+      ],
+      "bbox_max_mm": [
+        15.5,
+        8.557,
+        8.557
+      ],
+      "size_mm": [
+        15.5,
+        17.114,
+        17.114
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "d11a4947b2481b06ad8bc6e258df98f0cf80b44f4c0149dc0eb58f87cd8e0fd9"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_00_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/ft_suckers.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 5,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 568,
+      "bbox_min_mm": [
+        1.123,
+        -6.181,
+        -9.256
+      ],
+      "bbox_max_mm": [
+        14.277,
+        5.978,
+        -5.0
+      ],
+      "size_mm": [
+        13.154,
+        12.159,
+        4.256
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "bea4ae60da6a8266bc4f917efdd48a7d7391895cd8aff24bf0586df46c530ee7"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_01_body.stl",
+      "source": "simulation/mujoco_multi/assets/ft_seg.obj",
+      "source_to_output_scale": 930.0,
+      "quantity": 5,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 524,
+      "bbox_min_mm": [
+        0.0,
+        -7.958,
+        -7.958
+      ],
+      "bbox_max_mm": [
+        14.415,
+        7.958,
+        7.958
+      ],
+      "size_mm": [
+        14.415,
+        15.916,
+        15.916
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "3dc2ca4f5be2441890d1526f02d7386461a4309f87de1e0c610343a6e4faa342"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_01_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/ft_suckers.obj",
+      "source_to_output_scale": 930.0,
+      "quantity": 5,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 568,
+      "bbox_min_mm": [
+        1.044,
+        -5.748,
+        -8.608
+      ],
+      "bbox_max_mm": [
+        13.278,
+        5.56,
+        -4.65
+      ],
+      "size_mm": [
+        12.233,
+        11.308,
+        3.958
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "5b438a06fd49a835add7a5ea482ab6f864c14a08a9d3b29ef5245caa290b9bfb"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_02_body.stl",
+      "source": "simulation/mujoco_multi/assets/ft_seg.obj",
+      "source_to_output_scale": 864.9000000000001,
+      "quantity": 5,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 524,
+      "bbox_min_mm": [
+        0.0,
+        -7.401,
+        -7.401
+      ],
+      "bbox_max_mm": [
+        13.406,
+        7.401,
+        7.401
+      ],
+      "size_mm": [
+        13.406,
+        14.802,
+        14.802
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "1aa943967f5d424956bb196a4fb1f9ec7e101f79d002cadb62a0d508f05a9bb6"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_02_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/ft_suckers.obj",
+      "source_to_output_scale": 864.9000000000001,
+      "quantity": 5,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 568,
+      "bbox_min_mm": [
+        0.971,
+        -5.346,
+        -8.006
+      ],
+      "bbox_max_mm": [
+        12.348,
+        5.17,
+        -4.325
+      ],
+      "size_mm": [
+        11.377,
+        10.516,
+        3.681
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "c1be34893f03198e12db8ecd2d2eab09a1539fe6fcffe90bd8b874eccde88ac7"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_03_body.stl",
+      "source": "simulation/mujoco_multi/assets/ft_seg.obj",
+      "source_to_output_scale": 804.3570000000001,
+      "quantity": 5,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 524,
+      "bbox_min_mm": [
+        0.0,
+        -6.883,
+        -6.883
+      ],
+      "bbox_max_mm": [
+        12.468,
+        6.883,
+        6.883
+      ],
+      "size_mm": [
+        12.468,
+        13.766,
+        13.766
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "2c5084460b81421bdbd6d8d6f810d04d443c94bc38595360c83bc87498190c5e"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_03_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/ft_suckers.obj",
+      "source_to_output_scale": 804.3570000000001,
+      "quantity": 5,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 568,
+      "bbox_min_mm": [
+        0.903,
+        -4.972,
+        -7.445
+      ],
+      "bbox_max_mm": [
+        11.484,
+        4.808,
+        -4.022
+      ],
+      "size_mm": [
+        10.581,
+        9.78,
+        3.423
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "e88c2a74f8f31b76ea7b0049c23ef1b9422fa9fb4c31f042eeba84ee34b51925"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_04_body.stl",
+      "source": "simulation/mujoco_multi/assets/ft_seg.obj",
+      "source_to_output_scale": 748.0520100000002,
+      "quantity": 5,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 524,
+      "bbox_min_mm": [
+        0.0,
+        -6.401,
+        -6.401
+      ],
+      "bbox_max_mm": [
+        11.595,
+        6.401,
+        6.401
+      ],
+      "size_mm": [
+        11.595,
+        12.802,
+        12.802
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "e51d6a9828d495c19dd406316fc9dedb13eb4fc156ac6f98c073ac3bab51dcf7"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_04_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/ft_suckers.obj",
+      "source_to_output_scale": 748.0520100000002,
+      "quantity": 5,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 568,
+      "bbox_min_mm": [
+        0.84,
+        -4.624,
+        -6.924
+      ],
+      "bbox_max_mm": [
+        10.68,
+        4.472,
+        -3.74
+      ],
+      "size_mm": [
+        9.84,
+        9.096,
+        3.184
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "841ffac52bd48dcdfbf8e195a92312b85b1a13667f2c09115a6025ed6d5eef3e"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_05_body.stl",
+      "source": "simulation/mujoco_multi/assets/ft_seg.obj",
+      "source_to_output_scale": 695.6883693000002,
+      "quantity": 5,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 524,
+      "bbox_min_mm": [
+        0.0,
+        -5.953,
+        -5.953
+      ],
+      "bbox_max_mm": [
+        10.783,
+        5.953,
+        5.953
+      ],
+      "size_mm": [
+        10.783,
+        11.906,
+        11.906
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "41834b34368318e2f8bcb09254c699ccaaa7605d4a83159fd13599693018df6c"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_05_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/ft_suckers.obj",
+      "source_to_output_scale": 695.6883693000002,
+      "quantity": 5,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 568,
+      "bbox_min_mm": [
+        0.781,
+        -4.3,
+        -6.439
+      ],
+      "bbox_max_mm": [
+        9.932,
+        4.159,
+        -3.478
+      ],
+      "size_mm": [
+        9.151,
+        8.459,
+        2.961
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "af1416f26ead2c575a2f4f32e74cb1a8632ee83ddfaeb8a52613232f00231ce3"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_06_body.stl",
+      "source": "simulation/mujoco_multi/assets/ft_seg.obj",
+      "source_to_output_scale": 646.9901834490001,
+      "quantity": 5,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 524,
+      "bbox_min_mm": [
+        0.0,
+        -5.536,
+        -5.536
+      ],
+      "bbox_max_mm": [
+        10.028,
+        5.536,
+        5.536
+      ],
+      "size_mm": [
+        10.028,
+        11.073,
+        11.073
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "4a293854bac1334c0621f73af39df2cf00ead4c670db4250b216d74ad629a193"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_06_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/ft_suckers.obj",
+      "source_to_output_scale": 646.9901834490001,
+      "quantity": 5,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 568,
+      "bbox_min_mm": [
+        0.727,
+        -3.999,
+        -5.989
+      ],
+      "bbox_max_mm": [
+        9.237,
+        3.868,
+        -3.235
+      ],
+      "size_mm": [
+        8.511,
+        7.867,
+        2.754
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "0e45737d2a54d340f4b81f16ada729b4c656084ab0d7d5aff961fef34a343a2e"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_07_body.stl",
+      "source": "simulation/mujoco_multi/assets/ft_seg.obj",
+      "source_to_output_scale": 601.7008706075703,
+      "quantity": 5,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 524,
+      "bbox_min_mm": [
+        0.0,
+        -5.149,
+        -5.149
+      ],
+      "bbox_max_mm": [
+        9.326,
+        5.149,
+        5.149
+      ],
+      "size_mm": [
+        9.326,
+        10.298,
+        10.298
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "539cc7628917f4448c7ee9bc1373a4b37df8e96d7e1828f2ac54a3cd1d8264ce"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_07_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/ft_suckers.obj",
+      "source_to_output_scale": 601.7008706075703,
+      "quantity": 5,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 568,
+      "bbox_min_mm": [
+        0.676,
+        -3.719,
+        -5.569
+      ],
+      "bbox_max_mm": [
+        8.59,
+        3.597,
+        -3.009
+      ],
+      "size_mm": [
+        7.915,
+        7.316,
+        2.561
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "fa2d61198fb68ca0aadabe91a3726bf279f42dc78dcb6d6c7234eb6004a908db"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_08_body.stl",
+      "source": "simulation/mujoco_multi/assets/ft_seg.obj",
+      "source_to_output_scale": 559.5818096650404,
+      "quantity": 5,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 524,
+      "bbox_min_mm": [
+        0.0,
+        -4.788,
+        -4.788
+      ],
+      "bbox_max_mm": [
+        8.674,
+        4.788,
+        4.788
+      ],
+      "size_mm": [
+        8.674,
+        9.577,
+        9.577
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "ca17e6d7d1cb367d38f5b61a2f3ebcb4427fd159e0b70acf31ca4ab713508499"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_08_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/ft_suckers.obj",
+      "source_to_output_scale": 559.5818096650404,
+      "quantity": 5,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 568,
+      "bbox_min_mm": [
+        0.628,
+        -3.459,
+        -5.179
+      ],
+      "bbox_max_mm": [
+        7.989,
+        3.345,
+        -2.798
+      ],
+      "size_mm": [
+        7.361,
+        6.804,
+        2.382
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "36fc03f58366546e8a3e651c190086cdcc3df6e54a0277cdd2abc44406973372"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_09_body.stl",
+      "source": "simulation/mujoco_multi/assets/ft_seg.obj",
+      "source_to_output_scale": 520.4110829884876,
+      "quantity": 5,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 524,
+      "bbox_min_mm": [
+        0.0,
+        -4.453,
+        -4.453
+      ],
+      "bbox_max_mm": [
+        8.066,
+        4.453,
+        4.453
+      ],
+      "size_mm": [
+        8.066,
+        8.906,
+        8.906
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "f24b6266f278efaa056ac0915705c1b68b312d944440b660e424044d62220d4a"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_09_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/ft_suckers.obj",
+      "source_to_output_scale": 520.4110829884876,
+      "quantity": 5,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 568,
+      "bbox_min_mm": [
+        0.584,
+        -3.217,
+        -4.817
+      ],
+      "bbox_max_mm": [
+        7.43,
+        3.111,
+        -2.602
+      ],
+      "size_mm": [
+        6.845,
+        6.328,
+        2.215
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "83592d506ae7a66cb67095d0922514cbd2e42efd313750de9642243d702c884c"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_10_body.stl",
+      "source": "simulation/mujoco_multi/assets/ft_seg.obj",
+      "source_to_output_scale": 483.9823071792934,
+      "quantity": 5,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 524,
+      "bbox_min_mm": [
+        0.0,
+        -4.141,
+        -4.141
+      ],
+      "bbox_max_mm": [
+        7.502,
+        4.141,
+        4.141
+      ],
+      "size_mm": [
+        7.502,
+        8.283,
+        8.283
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "613a37685f1be32bf98a9898e63cf574b94a30a57c94f1a4a381d1c40ba175a0"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_10_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/ft_suckers.obj",
+      "source_to_output_scale": 483.9823071792934,
+      "quantity": 5,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 568,
+      "bbox_min_mm": [
+        0.544,
+        -2.991,
+        -4.48
+      ],
+      "bbox_max_mm": [
+        6.91,
+        2.893,
+        -2.42
+      ],
+      "size_mm": [
+        6.366,
+        5.885,
+        2.06
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "5948c73bd6a21a826f59725ebce38f8b87596303871221735522b2266edf202b"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_11_body.stl",
+      "source": "simulation/mujoco_multi/assets/ft_seg.obj",
+      "source_to_output_scale": 450.10354567674295,
+      "quantity": 5,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 524,
+      "bbox_min_mm": [
+        0.0,
+        -3.852,
+        -3.852
+      ],
+      "bbox_max_mm": [
+        6.977,
+        3.852,
+        3.852
+      ],
+      "size_mm": [
+        6.977,
+        7.703,
+        7.703
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "cab44fe3db3e2d7191324b8cad2d9be5cc0bd36c114bc535e88493ac6ed60491"
+    },
+    {
+      "path": "stl/five_tentacle/segments/segment_11_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/ft_suckers.obj",
+      "source_to_output_scale": 450.10354567674295,
+      "quantity": 5,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 568,
+      "bbox_min_mm": [
+        0.505,
+        -2.782,
+        -4.166
+      ],
+      "bbox_max_mm": [
+        6.426,
+        2.691,
+        -2.251
+      ],
+      "size_mm": [
+        5.921,
+        5.473,
+        1.916
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "6e184b40cdff220f7aa4edf5db309ae68222f797b5d700585638510dfbfe3a0e"
+    },
+    {
+      "path": "stl/five_tentacle/segments/tip_body.stl",
+      "source": "simulation/mujoco_multi/assets/ft_tip.obj",
+      "source_to_output_scale": 450.10354567674295,
+      "quantity": 5,
+      "material": "TPU 95A",
+      "notes": "",
+      "triangles": 480,
+      "bbox_min_mm": [
+        0.0,
+        -3.558,
+        -3.522
+      ],
+      "bbox_max_mm": [
+        6.628,
+        3.558,
+        3.522
+      ],
+      "size_mm": [
+        6.628,
+        7.116,
+        7.044
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "19308b1b70d78d1c295688f42c2f6dc92d761747026de3ed40fd6ff178d841ff"
+    },
+    {
+      "path": "stl/five_tentacle/segments/tip_suckers.stl",
+      "source": "simulation/mujoco_multi/assets/ft_tip_suckers.obj",
+      "source_to_output_scale": 450.10354567674295,
+      "quantity": 5,
+      "material": "TPU 85A",
+      "notes": "",
+      "triangles": 504,
+      "bbox_min_mm": [
+        0.374,
+        -1.283,
+        -3.609
+      ],
+      "bbox_max_mm": [
+        4.669,
+        1.283,
+        -2.269
+      ],
+      "size_mm": [
+        4.295,
+        2.566,
+        1.34
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "0543a1d993fd574606c7903eb710ad1123fe2900e2884cd792e75aca0ed537bd"
+    },
+    {
+      "path": "stl/vertical_lift/carriage_body.stl",
+      "source": "simulation/mujoco_multi/assets/carriage.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "PETG-CF",
+      "notes": "shared Z-stage carriage; one per arm",
+      "triangles": 652,
+      "bbox_min_mm": [
+        -140.2,
+        -52.5,
+        -40.0
+      ],
+      "bbox_max_mm": [
+        -68.2,
+        52.5,
+        80.0
+      ],
+      "size_mm": [
+        72.0,
+        105.0,
+        120.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 20,
+      "sha256": "e61985ec9a966c0fb91e137840b48a93ae35de7082c0989d86b3397819991910"
+    },
+    {
+      "path": "stl/vertical_lift/carriage_rollers_and_accent_reference.stl",
+      "source": "simulation/mujoco_multi/assets/carriage_orange.obj",
+      "source_to_output_scale": 1000.0,
+      "quantity": 1,
+      "material": "reference only",
+      "notes": "assembly-position reference for four V-rollers and accent; do not print as one installed part",
+      "triangles": 1436,
+      "bbox_min_mm": [
+        -108.2,
+        -44.5,
+        -34.0
+      ],
+      "bbox_max_mm": [
+        -66.2,
+        44.5,
+        66.0
+      ],
+      "size_mm": [
+        42.0,
+        89.0,
+        100.0
+      ],
+      "degenerate_triangles": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "f862c171ae0fcc099774271f84f850370a4fd15367cc6b4031f5380cf97a4351"
+    }
+  ]
+}

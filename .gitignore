@@ -1,0 +1,11 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.xlerobot_env/
+.env
+*.zip
+.cache/
